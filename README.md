@@ -74,7 +74,7 @@ The output will be in the `dist/` folder, ready to deploy.
 | due_date    | DATE         | Optional                                        |
 | assignee_ids| UUID[]       | Array of team_member IDs                        |
 | user_id     | UUID         | Tied to anonymous auth user                     |
-| created_at  | TIMESTAMPTZ  | Auto-set                                        |
+| created_at  | TIMESTAMPTZ  | Auto set                                        |
 
 ### `team_members` table
 
@@ -82,9 +82,9 @@ The output will be in the `dist/` folder, ready to deploy.
 |-----------|-------------|-------------------------------|
 | id        | UUID         | Primary key, auto-generated    |
 | name      | TEXT         | Required                       |
-| color     | TEXT         | Hex color for avatar           |
+| color     | TEXT         | Color for avatar               |
 | user_id   | UUID         | Tied to anonymous auth user    |
-| created_at| TIMESTAMPTZ  | Auto-set                       |
+| created_at| TIMESTAMPTZ  | Auto set                       |
 
 ### RLS Policies
 
